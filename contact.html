@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="shortcut icon" href="./images/Untitled design.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/7cfc1837b9.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>Forest Lake Memorial Park</title>
+    </head>
+
+    <body>
+        <header class="contact-header">
+            <nav>
+                <div class="navbar-container">
+                    <div class="web-logo">
+                        <img src="/images/Untitled design.png" alt="forest-lake">
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html" >ABOUT US</a></li>
+                        <li><a href="contact.html" class="underline">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="contact-img-container">
+            </div>
+        </header>
+
+        <section class="contact-section">
+            <div class="contact-container">
+                <div class="contact-form-container"  data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="left-form">
+                        <div class="contact-title">
+                            <span>Get In Touch </span>
+                        </div>
+                        <div class="contact-tagline">
+                            <span>Contact us for any concerns you have.</span>
+                        </div>
+                        <div class="logo-container">
+                            <i class="fa-solid fa-phone icon"></i>
+                            <span>0919-867-7676</span>
+                        </div>
+                        <div class="logo-container">
+                            <i class="fa-solid fa-envelope icon"></i>
+                            <span>info@forestlakeparks.com</span>
+                        </div>
+                        <div class="logo-container">
+                            <i class="fa-solid fa-location-dot icon"></i>
+                            <span>Alexcy One Building
+                            Third Floor, 51, President's Ave, Parañaque, 1718 Metro Manila</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/ForestLakeMemorialParks"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/forestlakememorialparks/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fsearch%3Fq%3Dforestlakememorialparks%26src%3Dtyped_query"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/channel/UCw_XKK-zJEhEjSHi2OTAxrA"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="right-form">
+                        <form action="" class="messageForm">
+                            <div class="inputGroup halfWidth">
+                                <input type="text" required="required">
+                                <label for="">First Name</label>
+                            </div>
+                            <div class="inputGroup halfWidth">
+                                <input type="text" required="required">
+                                <label for="">Last Name</label>
+                            </div>
+                            <div class="inputGroup halfWidth">
+                                <input type="text" required="required" id="email_id">
+                                <label for="">Email</label>
+                            </div>
+                            <div class="inputGroup halfWidth">
+                                <input type="number" required="required">
+                                <label for="">Phone</label>
+                            </div>
+                            <div class="inputGroup fullWidth">
+                                <input type="text" required="required">
+                                <label for="">Subject</label>
+                            </div>
+                            <div class="inputGroup fullWidth">
+                                <textarea required="required" id="message"></textarea>
+                                <label for="">Message</label>
+                            </div>
+                            <div class="inputGroup button">
+                                <button onclick="SendMail()">Send Message</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="google-maps">
+            <div class="maps-container" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="maps-text">
+                    <span>Forest Lakes' Main Office</span>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.6793930162626!2d121.02635907476332!3d14.445631086022535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cf733e0cce9d%3A0x31632d1eca0076e6!2sAlexcy%20One!5e0!3m2!1sen!2sph!4v1688655305017!5m2!1sen!2sph"
+                    width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Start of Footer -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-title">
+                        <h3>CONTACT</h3>
+                    </div>
+                    <div class="footer-desc">
+                        <span>Alexcy One Building Third Floor, 51, President's Ave, Parañaque, 1718 Metro Manila</span><br>
+                        <span>Phone: 0919-867-7676</span>
+                        <span>Telephone: 827-1234</span>
+                        <span>Email: info@forestlakeparks.com</span>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div class="footer-title">
+                        <h3>ABOUT</h3>
+                    </div>
+                    <div class="footer-desc">
+                        <a href="">History</a>
+                        <a href="">Vision</a>
+                        <a href="">Mission</a>
+                        <a href="">Values</a>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div class="footer-title">
+                        <h3>QUICK LINKS</h3>
+                    </div>
+                    <div class="footer-desc">
+                        <a href="">Parks</a>
+                        <a href="">About</a>
+                        <a href="">Contact</a>
+                        <a href="">Services</a>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div class="footer-title">
+                        <h3>FOLLOW US</h3>
+                    </div>
+                    <div class="footer-desc socials">
+                        <a href="https://www.facebook.com/ForestLakeMemorialParks"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/forestlakememorialparks/"><i class="fa-brands fa-instagram"></i></a>
+                        <a
+                            href="https://twitter.com/i/flow/login?redirect_after_login=%2Fsearch%3Fq%3Dforestlakememorialparks%26src%3Dtyped_query"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="copyright">
+                <span>© Copyright 2022 Forest Lake | All Rights Reserved</span>
+            </div>
+        </footer>
+        
+        <!-- End of Footer -->
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="app.js"></script>
+    </body>
+</html>
